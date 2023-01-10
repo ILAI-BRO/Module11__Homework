@@ -21,7 +21,6 @@ test ('Output a string with a given number for its repetition, which are passed 
   
 }); 
 
-//Неуспешное выполнение функции. Получен результат "слово 1, слово 2, " с пробелом после последнего слова. Ожидали без пробела: toBe( "слово1, слово2,").
 
 xtest ('Output a string with a given number for its repetition, which are passed in the arguments repeatWord(word, number)', () => {
 	
