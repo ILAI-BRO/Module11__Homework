@@ -22,6 +22,8 @@ test ('Output a string with a given number for its repetition, which are passed 
 }); 
 
 
+// Неуспешное выполнение функции
+
 xtest ('Output a string with a given number for its repetition, which are passed in the arguments repeatWord(word, number)', () => {
 	
 	expect(repeatWord('word', 2)).toBe( 'word1, word2,');
